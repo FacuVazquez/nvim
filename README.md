@@ -1,5 +1,5 @@
 # Nvim
-My (first) nvim config using lazy vim :D
+My (first) nvim config using lazy nvim :D
 
 ## Plugins
 - Copilot
