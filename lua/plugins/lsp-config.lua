@@ -21,13 +21,17 @@ return {
 
       local lspconfig = require("lspconfig")
       lspconfig.tsserver.setup({
-        capabilites = capabilities,
+        capabilities = capabilities,
       })
       lspconfig.html.setup({
-        capabilites = capabilities,
+        capabilities = capabilities,
       })
       lspconfig.lua_ls.setup({
-        capabilites = capabilities,
+        capabilities = capabilities,
+      })
+
+      lspconfig.emmet_ls.setup({
+        capabilities = capabilities,
       })
 
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
