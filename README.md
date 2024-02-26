@@ -1,13 +1,4 @@
-# Nvim
-My (first) nvim config using lazy nvim :D
+# 💤 LazyVim
 
-## Plugins
-- Copilot
-- Lualine
-- Neotree
-- None-ls
-- Telescope
-- Treesitter
-- For the LSP configuration:
-    Mason, mason-lspconfig, nvim-lspconfig
-- Gruvbox (for colorscheme)
+A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
